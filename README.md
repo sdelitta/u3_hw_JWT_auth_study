@@ -1,8 +1,12 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)  SOFTWARE ENGINEERING IMMERSIVE
-
 # Authentication Study
 
 Please take the time to read this [article](https://medium.com/ag-grid/a-plain-english-introduction-to-json-web-tokens-jwt-what-it-is-and-what-it-isnt-8076ca679843) before proceeding.
+
+## Instructions
+
+- Fork and Clone
+
+Write your answers in the space provided in this readme.
 
 ## A Note on Passwords
 
@@ -17,7 +21,9 @@ Here is a flow for using JWT for Authentication
 ![](jwt.jpeg)
 
 1. The user signs up:
+
 - The client creates a POST request to the `/signup` endpoint on the server with username, email, and password in the request body
+
 2. The server creates a JSON Web Token (JWT) based on a header, payload, and secret
 3. The server responds with the JWT
 4. The client saves the JWT in localStorage to persist subsequent server requests
@@ -61,3 +67,7 @@ Paste your encoded JWT below:
 ```
 
 **Bonus**: Read https://blog.angular-university.io/angular-jwt
+
+## Submission
+
+Submit a pull request utilizing the [PR Template](https://github.com/SEI-R-1-25/template_pull_request)

@@ -70,4 +70,4 @@ Paste your encoded JWT below:
 
 ## Submission
 
-Submit a pull request utilizing the [PR Template](https://github.com/SEI-R-4-26/template_pull_request)
+Submit a pull request utilizing the [PR Template](https://github.com/SEI-R-2-22/template_pull_request)
